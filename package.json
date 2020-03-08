@@ -1,0 +1,23 @@
+{
+	"name": "deploy",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Deploy App To Serve",
+	"author": "ljw <297382151@qq.com>",
+	"main": "app.js",
+	"scripts": {
+		"deploy": "node app.js"
+	},
+	"dependencies": {
+		"archiver": "^3.1.1",
+		"inquirer": "^7.0.6",
+		"node-ssh": "^7.0.0"
+	},
+	"devDependencies": {},
+	"keywords": [
+		"node",
+		"front-end",
+		"auto-deploy",
+		"web"
+	]
+}
